@@ -1,0 +1,9 @@
+create table coupon_keyspace.t_coupon (
+    id uuid PRIMARY KEY,
+    uid int,
+    avail_date timestamp,
+    end_date timestamp,
+    start_date timestamp,
+    coupon_type int,
+    process_type int
+    );

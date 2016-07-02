@@ -1,0 +1,2 @@
+insert into coupon_keyspace.t_coupon(id,uid,start_date,end_date,avail_date,coupon_type,process_type) values(now(),12345,'2016-6-2 12:10','2016-10-2 12:10','2016-6-1 12:10',1,1);
+insert into coupon_keyspace.t_coupon(id,uid,start_date,end_date,avail_date,coupon_type,process_type) values(now(),22225,'2016-6-2 12:10','2016-10-2 12:10','2016-6-1 12:10',1,1);
